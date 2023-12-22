@@ -20,29 +20,20 @@ LOGGER = get_logger(__name__)
 
 def run():
     st.set_page_config(
-        page_title="Hello",
-        page_icon="👋",
+        page_title="Estralletommm",
+        page_icon="🐰",
     )
 
-    st.write("# Welcome to Streamlit! 👋")
+    st.write("# 🐰Tom个人工具箱")
 
-    st.sidebar.success("Select a demo above.")
+    st.sidebar.success("工具列表")
 
     st.markdown(
         """
-        Streamlit is an open-source app framework built specifically for
-        Machine Learning and Data Science projects.
-        **👈 Select a demo from the sidebar** to see some examples
-        of what Streamlit can do!
-        ### Want to learn more?
-        - Check out [streamlit.io](https://streamlit.io)
-        - Jump into our [documentation](https://docs.streamlit.io)
-        - Ask a question in our [community
-          forums](https://discuss.streamlit.io)
-        ### See more complex demos
-        - Use a neural net to [analyze the Udacity Self-driving Car Image
-          Dataset](https://github.com/streamlit/demo-self-driving)
-        - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
+        生活工作中发现许多细小的点可以通过代码方式搞定，但是又不想通过Java实现那么重的项目。
+        用python来实现现这些个人的需求是一个很好的选择。
+        框架选择streamlit，刚好试一试新推的社区云部署，简化部署，看看效果如何。\n
+        **👈 左边可以选择工具列表进入具体的工具页面**
     """
     )
 
